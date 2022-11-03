@@ -4,15 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>My resume</title>
   </head>
   <body>
     <!-- Main -->
-    <div>
+    <div class="main">
       <!--Main content-->
-      <div>
+      <div class="main_content">
         <!-- about user -->
-        <div>
+        <div class="about">
           <h2>Full stack Developer</h2>
           <h1>Aleksandr Shunin</h1>
           <p>
@@ -21,8 +28,8 @@
           </p>
         </div>
         <!-- Projects -->
-        <div>
-          <h3>Project</h3>
+        <div class="projects">
+          <h3 class="project_title">Project</h3>
           <ol>
             <li>
               <a href="https://hellen.p.goit.global/"
@@ -42,7 +49,7 @@
           </ol>
         </div>
         <!-- Work -->
-        <div>
+        <div class="work">
           <h3>Work Experience</h3>
           <!-- Company 1 -->
           <div>
@@ -78,7 +85,7 @@
           </div>
         </div>
         <!-- Education -->
-        <div>
+        <div class="education">
           <h3>Education</h3>
           <h4>ODESSА POLYTECHNIC NATIONAL UNIVERSITY</h4>
           <h5>Radio engineer</h5>
@@ -86,40 +93,50 @@
         </div>
       </div>
       <!-- Sidebar-->
-      <aside>
-        <img src="img/me2.jpg" alt="my_photo" />
+      <aside class="sidebar">
+        <img src="img/me1.jpg" alt="my_photo" width="370" />
         <!-- Contacts -->
         <div>
           <h3>Contacts</h3>
-          <div>
-            <p>C: <a href="tel:+380505446943">+38 050 544 .. 43</a></p>
-            <p>E: <a href="mailto:alezalez@ukr.net">alezalez@ukr.net</a></p>
+          <div class="contact">
+            <p>
+              C:
+              <a href="tel:+380505446943" style="color: #ffffff"
+                >+38 050 544 .. 43</a
+              >
+            </p>
+            <p>
+              E:
+              <a href="mailto:alezalez@ukr.net" style="color: #ffffff"
+                >alezalez@ukr.net</a
+              >
+            </p>
           </div>
         </div>
         <!-- Tech skills -->
         <div>
           <h3>Tech Skills</h3>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>GIT</li>
-            <li>WebPack</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>Java</li>
-            <li>Spring</li>
-            <li>Hibernate</li>
+          <ul class="list_color_dot">
+            <li><span>HTML5</span></li>
+            <li><span>CSS3</span></li>
+            <li><span>GIT</span></li>
+            <li><span>WebPack</span></li>
+            <li><span>JavaScript</span></li>
+            <li><span>React.js</span></li>
+            <li><span>Node.js</span></li>
+            <li><span>Java</span></li>
+            <li><span>Spring</span></li>
+            <li><span>Hibernate</span></li>
           </ul>
         </div>
         <!-- Soft skills -->
         <div>
           <h3>Soft Skills</h3>
-          <ul>
-            <li>Scrum</li>
-            <li>Agile</li>
-            <li>GTD</li>
-            <li>Teamwork</li>
+          <ul class="list_color_dot">
+            <li><span>Scrum</span></li>
+            <li><span>Agile</span></li>
+            <li><span>GTD</span></li>
+            <li><span>Teamwork</span></li>
           </ul>
         </div>
       </aside>
