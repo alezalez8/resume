@@ -45,16 +45,19 @@ body {
 .education {
   background-color: darkblue;
   margin: 0px 257px 51px 88px;
+  color: white;
 }
 /* sidebar style */
 .sidebar{
    margin-left: 19px;
    background-color: #1E2939; 
    color: #FFFFFF;
-   font-size: 14px;   
+   font-size: 14px; 
+   padding-left: 40px;  
    }
    span{
-      color: white;
+      color: white; 
+            
    }
    
    .list_color_dot{
