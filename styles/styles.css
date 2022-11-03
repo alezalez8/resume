@@ -14,6 +14,9 @@ body {
 .main_content{
    background-color:#FFFFFF;
 }
+ul{
+  padding-left:20px
+}
 
 /* about styles */
 .about {
@@ -56,10 +59,8 @@ body {
    padding-left: 40px;  
    }
    span{
-      color: white; 
-            
-   }
-   
+      color: white;             
+   }   
    .list_color_dot{
       color: #FB6D3A;      
    }
