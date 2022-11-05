@@ -1,9 +1,6 @@
-/* *{
-  background-color: #E5E5E5;
-} */
-
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
 }
 /* main styles  */
 .main {
@@ -23,7 +20,10 @@ ul {
 }
 
 /* about styles */
-.about {
+.about,
+.projects,
+.work,
+.education {
   margin: 0px 257px 51px 88px;
 }
 .about > h1 {
@@ -32,27 +32,15 @@ ul {
 .about > h2 {
   font-size: 14px;
 }
-/* project styles */
-.projects {
-  margin: 40px 257px 51px 88px;
-}
 
 .project_title {
   font-size: 45px;
   color: blue;
 }
-/* work styles */
-.work {
-  margin: 0px 257px 51px 88px;
-}
-/* education styles */
-.education {
-  margin: 0px 257px 51px 88px;
-}
 /* sidebar style */
 .sidebar {
   width: 370px;
-  margin-left: 19px;
+  /* margin-left: 19px; */
   background-color: #1e2939;
   padding-top: 40px;
 }
@@ -88,7 +76,8 @@ span {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #565e6a;
+  /* color: #565e6a; */
+  color: #fff;
   opacity: 0.5;
 }
 .contact-type {
@@ -110,4 +99,8 @@ span {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+}
+
+.tech-skills {
+  margin-bottom: 45px;
 }
